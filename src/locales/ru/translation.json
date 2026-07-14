@@ -1,0 +1,399 @@
+{
+  "app": {
+    "title": "Карта навыков",
+    "subtitle": "Наведите на узел, чтобы увидеть описание. Перетаскивайте узлы, колесо — зум."
+  },
+  "sidePanel": {
+    "menuLabel": "Открыть меню",
+    "links": "Ссылки",
+    "project": "Проект",
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "language": "Язык"
+  },
+  "groups": {
+    "base": "Базовые знания",
+    "internet": "Интернет",
+    "vcs": "Системы контроля версий",
+    "markup": "Верстка",
+    "pkg": "Пакетные менеджеры",
+    "js": "Javascript",
+    "tooling": "Tooling",
+    "webapi": "Web API",
+    "perf": "Производительность",
+    "graphics": "Графика",
+    "containers": "Контейнеризация",
+    "bundlers": "Сборщики модулей",
+    "rendering": "Рендеринг",
+    "nextjs": "NextJS",
+    "react": "React",
+    "typescript": "Typescript",
+    "architecture": "Архитектура"
+  },
+  "skills": {
+    "js": {
+      "label": "JavaScript",
+      "desc": "Основной язык. Замыкания, event loop, асинхронность."
+    },
+    "js-numbers": {
+      "label": "Работа с числами",
+      "desc": "Точность вычислений с плавающей точкой, Number, Math, BigInt."
+    },
+    "js-vars-types": {
+      "label": "Переменные и типы данных",
+      "desc": "let/const/var, примитивы и ссылочные типы, приведение типов."
+    },
+    "js-events": {
+      "label": "События",
+      "desc": "Всплытие, погружение, делегирование, объект события."
+    },
+    "js-functions": {
+      "label": "Функции",
+      "desc": "Замыкания, this, стрелочные функции, аргументы и rest/spread."
+    },
+    "js-http": {
+      "label": "HTTP запросы",
+      "desc": "fetch (JSON/Blob/заголовки, отмена через AbortController) vs XMLHttpRequest — отличия и отмена запроса."
+    },
+    "event-loop": {
+      "label": "Event Loop",
+      "desc": "Стек вызовов, очередь задач и микрозадач, порядок выполнения."
+    },
+    "js-arrays": {
+      "label": "Методы массивов",
+      "desc": "map/filter/reduce и другие методы, иммутабельные преобразования."
+    },
+    "es6": {
+      "label": "ES6",
+      "desc": "let/const, деструктуризация, классы, модули, промисы, шаблонные строки."
+    },
+    "js-strings": {
+      "label": "Работа со строками",
+      "desc": "Методы строк, шаблонные литералы, юникод."
+    },
+    "memoization": {
+      "label": "Мемоизация",
+      "desc": "Кэширование результатов вычислений, чистые функции."
+    },
+    "immutability": {
+      "label": "Иммутабельность и мутации",
+      "desc": "Неизменяемые структуры данных, побочные эффекты мутаций."
+    },
+    "es6-esnext": {
+      "label": "ES6-ESNEXT",
+      "desc": "Актуальные предложения и новые возможности языка после ES6."
+    },
+    "modularity": {
+      "label": "Модульность",
+      "desc": "ESM/CommonJS, области видимости модулей, циклические зависимости."
+    },
+    "async": {
+      "label": "Асинхронность",
+      "desc": "Промисы, async/await, обработка параллельных операций."
+    },
+    "regexp": {
+      "label": "Регулярные выражения",
+      "desc": "Паттерны, группы захвата, флаги, практическое применение."
+    },
+    "date-time": {
+      "label": "Дата и время",
+      "desc": "Date, часовые пояса, форматирование, работа с интервалами."
+    },
+    "objects": {
+      "label": "Объекты и их методы",
+      "desc": "Прототипы, дескрипторы свойств, Object.keys/entries/assign."
+    },
+    "axios": {
+      "label": "Axios",
+      "desc": "Изоморфный HTTP-клиент: инстанс с baseURL и cookie, query/POST-запросы, интерцепторы, retry неуспешных запросов."
+    },
+    "ts-lvl1": {
+      "label": "TypeScript - LVL 1",
+      "desc": "tsconfig, any vs unknown, union/intersection, type guards, интерфейсы vs типы, типизация классов и функций."
+    },
+    "ts-lvl2": {
+      "label": "TypeScript - LVL 2",
+      "desc": "Utility types, generics, перегрузка функций, ООП (abstract/private/protected, construct signatures), неймспейсы vs модули."
+    },
+    "react-basics": {
+      "label": "React: Основы",
+      "desc": "VDOM vs DOM, компоненты, state и props, условный рендеринг и списки, события React, причины перерисовки."
+    },
+    "react-perf": {
+      "label": "React: производительность",
+      "desc": "React DevTools, согласование VDOM, React.memo, ленивая загрузка, влияние keys/контекста, утечки памяти, prod vs dev сборка."
+    },
+    "react-ui": {
+      "label": "React: UI components",
+      "desc": "Переиспользуемые компоненты, композиция, дизайн-система."
+    },
+    "react-forms": {
+      "label": "React: forms",
+      "desc": "Controlled vs uncontrolled поля, React Hook Form + Zod, хуки useForm/useWatch/useController/useFieldArray."
+    },
+    "react-compound": {
+      "label": "React: Compound",
+      "desc": "Compound components, гибкие составные API компонентов."
+    },
+    "mobx": {
+      "label": "MobX: базовый",
+      "desc": "Observable-состояние, реактивные вычисления, сторы."
+    },
+    "react-hooks": {
+      "label": "React: Hooks",
+      "desc": "Правила и порядок вызова хуков; useState/useContext/useRef/useEffect/useLayoutEffect/useCallback/useMemo/useId; свои хуки."
+    },
+    "react-ts": {
+      "label": "React: Typescript",
+      "desc": "Типизация пропсов (children, Readonly), useState/useContext, обработчиков событий и ref; ReactNode/ReactElement/JSX.Element/Ref."
+    },
+    "react-animations": {
+      "label": "React: анимации",
+      "desc": "Framer Motion: motion.div, variants и каскадные анимации, transition, useAnimation/useMotionValue, оптимизация и анимация при размонтировании."
+    },
+    "redux-rtk": {
+      "label": "Redux + RTK",
+      "desc": "Глобальное состояние, слайсы, thunks, RTK Query."
+    },
+    "react-native": {
+      "label": "React Native",
+      "desc": "Кроссплатформенная мобильная разработка на React."
+    },
+    "react-table": {
+      "label": "React: Table",
+      "desc": "TanStack Table: заголовки, сортировка, пагинация, виртуализация."
+    },
+    "dns": {
+      "label": "DNS",
+      "desc": "Разрешение доменных имён, записи A/CNAME/MX, TTL."
+    },
+    "cors": {
+      "label": "CORS",
+      "desc": "Политика безопасности браузера для кросс-доменных запросов."
+    },
+    "ssh": {
+      "label": "SSH",
+      "desc": "Безопасное подключение к серверу, ключи, туннелирование."
+    },
+    "http-protocol": {
+      "label": "HTTP протокол",
+      "desc": "Методы, статусы, заголовки — основа взаимодействия клиент-сервер."
+    },
+    "hosting": {
+      "label": "Хостинги",
+      "desc": "Виды хостинга, деплой статики и серверных приложений."
+    },
+    "git": {
+      "label": "GIT",
+      "desc": "Ветвление, rebase, разрешение конфликтов, code review flow."
+    },
+    "trunk-based": {
+      "label": "Trunk Based Development",
+      "desc": "Короткоживущие ветки, частые интеграции в main."
+    },
+    "test-project": {
+      "label": "Тестовый проект",
+      "desc": "Практика вёрстки на реальном макете от начала до конца."
+    },
+    "vars-selectors-functions": {
+      "label": "Переменные, селекторы, функции",
+      "desc": "CSS-переменные, специфичность селекторов, функции calc/clamp."
+    },
+    "figma": {
+      "label": "Работа с макетами и дизайнерами / Основы Figma",
+      "desc": "Чтение макетов, работа с дизайн-токенами и компонентами."
+    },
+    "box-model": {
+      "label": "Блочная модель, каскад, специфичность, наследование",
+      "desc": "Основы CSS: box-sizing, порядок применения стилей."
+    },
+    "tailwind": {
+      "label": "TailwindCSS",
+      "desc": "Утилитарный CSS-фреймворк, кастомизация конфигурации."
+    },
+    "flex-grid": {
+      "label": "Flex + Grid",
+      "desc": "Современная раскладка страницы, адаптивные сетки."
+    },
+    "bem": {
+      "label": "БЭМ",
+      "desc": "Методология именования блоков, элементов и модификаторов."
+    },
+    "sass": {
+      "label": "Sass",
+      "desc": "Препроцессор CSS: миксины, вложенность, переменные, модули."
+    },
+    "fonts": {
+      "label": "Шрифты",
+      "desc": "Подключение веб-шрифтов, font-display, оптимизация загрузки."
+    },
+    "css-in-js": {
+      "label": "CSS-in-JS",
+      "desc": "Стилизация компонентов через JS: styled-components и аналоги."
+    },
+    "css-modules": {
+      "label": "CSS modules",
+      "desc": "Локальная область видимости классов, изоляция стилей."
+    },
+    "email-markup": {
+      "label": "Вёрстка писем",
+      "desc": "Табличная вёрстка email-рассылок, react-mailer, кроссклиентность."
+    },
+    "nativewind": {
+      "label": "NativeWind",
+      "desc": "Tailwind-синтаксис для стилизации React Native компонентов."
+    },
+    "npm": {
+      "label": "NPM",
+      "desc": "package.json/package-lock, dependencies vs devDependencies, npm-скрипты, npx, версии Node.js, отличия от Yarn."
+    },
+    "npm-advanced": {
+      "label": "NPM: advanced",
+      "desc": "Semver, ограничения engines/os/arch, реестры и .npmrc, peer/optional/bundled-зависимости, резолвинг node_modules, npm audit."
+    },
+    "devtools": {
+      "label": "Chrome Devtools",
+      "desc": "Network (throttling, curl, вес ресурсов), Elements (стили, ARIA), Application (cookies/storage), Sources (брейкпоинты), Accessibility, FPS/Web Vitals."
+    },
+    "seo": {
+      "label": "SEO",
+      "desc": "Мета-теги, семантика, индексация, основы продвижения сайта."
+    },
+    "ide": {
+      "label": "IDE",
+      "desc": "WebStorm и VS Code: настройка, расширения, сниппеты, отладчик, live templates, продуктивные шорткаты."
+    },
+    "markdown": {
+      "label": "Markdown",
+      "desc": "Разметка документации, README, синтаксис оформления."
+    },
+    "analytics": {
+      "label": "Сервисы аналитики",
+      "desc": "Метрики использования, события, воронки, A/B-тесты."
+    },
+    "openapi": {
+      "label": "OpenAPI",
+      "desc": "Описание REST API, Swagger UI, генерация клиентов и документации."
+    },
+    "linux": {
+      "label": "Linux",
+      "desc": "Командная строка, права доступа, процессы, базовое администрирование."
+    },
+    "auth": {
+      "label": "Авторизация и аутентификация",
+      "desc": "Сессии, токены, OAuth, разграничение доступа."
+    },
+    "security": {
+      "label": "Безопасность",
+      "desc": "XSS, CSRF, инъекции, базовые практики защиты веб-приложений."
+    },
+    "yaml": {
+      "label": "YAML",
+      "desc": "Синтаксис (блоки, списки, многострочные строки, комментарии), типы данных, переиспользование и валидация в YAML-контрактах."
+    },
+    "eslint-prettier": {
+      "label": "Eslint & Prettier",
+      "desc": "Линтинг и форматирование кода, единый code style в команде."
+    },
+    "socket-io": {
+      "label": "Socket.io",
+      "desc": "Двусторонняя связь в реальном времени поверх WebSocket."
+    },
+    "zod": {
+      "label": "Zod",
+      "desc": "Валидация схем данных на рантайме, синхронизация с TS-типами."
+    },
+    "postman": {
+      "label": "Postman",
+      "desc": "Ручное и автоматизированное тестирование API-запросов."
+    },
+    "storybook": {
+      "label": "Storybook",
+      "desc": "Изолированная разработка и документирование UI-компонентов."
+    },
+    "tanstack": {
+      "label": "TanStack Query",
+      "desc": "Кэширование и синхронизация серверного состояния в React."
+    },
+    "ai-agents": {
+      "label": "AI-агенты",
+      "desc": "Claude, Codex, Cursor, Qwen — агентная разработка с AI; spec-driven development для постановки задач агенту."
+    },
+    "storage": {
+      "label": "Local & Session Storage",
+      "desc": "Клиентское хранилище данных, отличия по времени жизни."
+    },
+    "iframe": {
+      "label": "IFrame",
+      "desc": "Встраивание сторонних страниц, изоляция и обмен сообщениями."
+    },
+    "pwa": {
+      "label": "PWA",
+      "desc": "Service Worker, offline-режим, манифест, установка на устройство."
+    },
+    "web-vitals": {
+      "label": "WebVitals",
+      "desc": "LCP, CLS, INP; измерение CLS, Field vs Origin Summary vs Lab-данные; Lighthouse, PageSpeed, WebPageTest, Perfume, Sentry Performance."
+    },
+    "svg": {
+      "label": "SVG",
+      "desc": "Векторная графика в вебе, анимация и стилизация путей."
+    },
+    "docker": {
+      "label": "Docker",
+      "desc": "Контейнеризация окружения разработки и деплоя."
+    },
+    "browser-render": {
+      "label": "Как браузер рисует страницы",
+      "desc": "Critical rendering path: fetch → DOM/CSSOM → Render Tree → Layout → Paint → Composite; блокирующие ресурсы, Reflow vs Repaint, слои и растеризация."
+    },
+    "rendering-strategies": {
+      "label": "Основные стратегии",
+      "desc": "CSR, SSR, SSG, ISR — отличия, плюсы и минусы каждого подхода."
+    },
+    "code-splitting": {
+      "label": "Code-splitting & Tree-shaking",
+      "desc": "Динамические импорты, prefetch/preload, анализ бандла; условия tree-shakeable кода, sideEffects в package.json, usedExports/providedExports."
+    },
+    "vite": {
+      "label": "Vite",
+      "desc": "Сборка и dev-сервер: быстрый HMR, плагины, конфигурация билда."
+    },
+    "i18n": {
+      "label": "i18n - интернационализация",
+      "desc": "Локализация приложения, роутинг по языкам, форматирование."
+    },
+    "next-framework": {
+      "label": "Next.js",
+      "desc": "App/Pages router, серверные компоненты, файловая маршрутизация."
+    },
+    "bff": {
+      "label": "BFF & ApiGetaway pattern",
+      "desc": "Backend for Frontend, единая точка входа для клиентских API."
+    },
+    "oop": {
+      "label": "ООП",
+      "desc": "Инкапсуляция, наследование, полиморфизм, композиция."
+    },
+    "mv-patterns": {
+      "label": "MV* паттерны",
+      "desc": "MVC/MVP/MVVM — разделение ответственности в приложении."
+    },
+    "principles": {
+      "label": "Ключевые принципы разработки ПО",
+      "desc": "DRY, KISS, YAGNI и другие базовые инженерные принципы."
+    },
+    "solid": {
+      "label": "S.O.L.I.D.",
+      "desc": "Пять принципов объектно-ориентированного проектирования."
+    },
+    "atomic-design": {
+      "label": "Atomic Design",
+      "desc": "Атомы, молекулы, организмы — иерархия переиспользуемых компонентов."
+    },
+    "docker-compose": {
+      "label": "docker-compose",
+      "desc": "Оркестрация нескольких контейнеров через единый YAML-конфиг."
+    }
+  }
+}

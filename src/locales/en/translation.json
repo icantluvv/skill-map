@@ -1,0 +1,399 @@
+{
+  "app": {
+    "title": "Skill Map",
+    "subtitle": "Hover a node to see its description. Drag nodes, scroll to zoom."
+  },
+  "sidePanel": {
+    "menuLabel": "Open menu",
+    "links": "Links",
+    "project": "Project",
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "language": "Language"
+  },
+  "groups": {
+    "base": "Fundamentals",
+    "internet": "Internet",
+    "vcs": "Version Control Systems",
+    "markup": "Markup",
+    "pkg": "Package Managers",
+    "js": "JavaScript",
+    "tooling": "Tooling",
+    "webapi": "Web API",
+    "perf": "Performance",
+    "graphics": "Graphics",
+    "containers": "Containerization",
+    "bundlers": "Module Bundlers",
+    "rendering": "Rendering",
+    "nextjs": "Next.js",
+    "react": "React",
+    "typescript": "TypeScript",
+    "architecture": "Architecture"
+  },
+  "skills": {
+    "js": {
+      "label": "JavaScript",
+      "desc": "Core language. Closures, event loop, asynchrony."
+    },
+    "js-numbers": {
+      "label": "Working with Numbers",
+      "desc": "Floating-point precision, Number, Math, BigInt."
+    },
+    "js-vars-types": {
+      "label": "Variables and Data Types",
+      "desc": "let/const/var, primitives and reference types, type coercion."
+    },
+    "js-events": {
+      "label": "Events",
+      "desc": "Bubbling, capturing, delegation, the event object."
+    },
+    "js-functions": {
+      "label": "Functions",
+      "desc": "Closures, this, arrow functions, arguments and rest/spread."
+    },
+    "js-http": {
+      "label": "HTTP Requests",
+      "desc": "fetch (JSON/Blob/headers, cancellation via AbortController) vs XMLHttpRequest — differences and request cancellation."
+    },
+    "event-loop": {
+      "label": "Event Loop",
+      "desc": "Call stack, task and microtask queues, execution order."
+    },
+    "js-arrays": {
+      "label": "Array Methods",
+      "desc": "map/filter/reduce and other methods, immutable transformations."
+    },
+    "es6": {
+      "label": "ES6",
+      "desc": "let/const, destructuring, classes, modules, promises, template literals."
+    },
+    "js-strings": {
+      "label": "Working with Strings",
+      "desc": "String methods, template literals, unicode."
+    },
+    "memoization": {
+      "label": "Memoization",
+      "desc": "Caching computed results, pure functions."
+    },
+    "immutability": {
+      "label": "Immutability and Mutations",
+      "desc": "Immutable data structures, side effects of mutation."
+    },
+    "es6-esnext": {
+      "label": "ES6-ESNext",
+      "desc": "Current proposals and new language features after ES6."
+    },
+    "modularity": {
+      "label": "Modularity",
+      "desc": "ESM/CommonJS, module scoping, circular dependencies."
+    },
+    "async": {
+      "label": "Asynchrony",
+      "desc": "Promises, async/await, handling concurrent operations."
+    },
+    "regexp": {
+      "label": "Regular Expressions",
+      "desc": "Patterns, capture groups, flags, practical use."
+    },
+    "date-time": {
+      "label": "Date and Time",
+      "desc": "Date, time zones, formatting, working with intervals."
+    },
+    "objects": {
+      "label": "Objects and Their Methods",
+      "desc": "Prototypes, property descriptors, Object.keys/entries/assign."
+    },
+    "axios": {
+      "label": "Axios",
+      "desc": "Isomorphic HTTP client: instance with baseURL and cookies, query/POST requests, interceptors, retrying failed requests."
+    },
+    "ts-lvl1": {
+      "label": "TypeScript - LVL 1",
+      "desc": "tsconfig, any vs unknown, union/intersection, type guards, interfaces vs types, typing classes and functions."
+    },
+    "ts-lvl2": {
+      "label": "TypeScript - LVL 2",
+      "desc": "Utility types, generics, function overloading, OOP (abstract/private/protected, construct signatures), namespaces vs modules."
+    },
+    "react-basics": {
+      "label": "React: Basics",
+      "desc": "VDOM vs DOM, components, state and props, conditional rendering and lists, React events, reasons for re-renders."
+    },
+    "react-perf": {
+      "label": "React: Performance",
+      "desc": "React DevTools, VDOM reconciliation, React.memo, lazy loading, impact of keys/context, memory leaks, prod vs dev build."
+    },
+    "react-ui": {
+      "label": "React: UI components",
+      "desc": "Reusable components, composition, design system."
+    },
+    "react-forms": {
+      "label": "React: forms",
+      "desc": "Controlled vs uncontrolled fields, React Hook Form + Zod, useForm/useWatch/useController/useFieldArray hooks."
+    },
+    "react-compound": {
+      "label": "React: Compound",
+      "desc": "Compound components, flexible composite component APIs."
+    },
+    "mobx": {
+      "label": "MobX: Basics",
+      "desc": "Observable state, reactive computations, stores."
+    },
+    "react-hooks": {
+      "label": "React: Hooks",
+      "desc": "Rules and order of hook calls; useState/useContext/useRef/useEffect/useLayoutEffect/useCallback/useMemo/useId; custom hooks."
+    },
+    "react-ts": {
+      "label": "React: TypeScript",
+      "desc": "Typing props (children, Readonly), useState/useContext, event handlers and refs; ReactNode/ReactElement/JSX.Element/Ref."
+    },
+    "react-animations": {
+      "label": "React: Animations",
+      "desc": "Framer Motion: motion.div, variants and staggered animations, transition, useAnimation/useMotionValue, optimization and exit animations."
+    },
+    "redux-rtk": {
+      "label": "Redux + RTK",
+      "desc": "Global state, slices, thunks, RTK Query."
+    },
+    "react-native": {
+      "label": "React Native",
+      "desc": "Cross-platform mobile development with React."
+    },
+    "react-table": {
+      "label": "React: Table",
+      "desc": "TanStack Table: headers, sorting, pagination, virtualization."
+    },
+    "dns": {
+      "label": "DNS",
+      "desc": "Domain name resolution, A/CNAME/MX records, TTL."
+    },
+    "cors": {
+      "label": "CORS",
+      "desc": "Browser security policy for cross-origin requests."
+    },
+    "ssh": {
+      "label": "SSH",
+      "desc": "Secure server connections, keys, tunneling."
+    },
+    "http-protocol": {
+      "label": "HTTP Protocol",
+      "desc": "Methods, status codes, headers — the foundation of client-server communication."
+    },
+    "hosting": {
+      "label": "Hosting",
+      "desc": "Types of hosting, deploying static and server-side apps."
+    },
+    "git": {
+      "label": "GIT",
+      "desc": "Branching, rebase, conflict resolution, code review flow."
+    },
+    "trunk-based": {
+      "label": "Trunk Based Development",
+      "desc": "Short-lived branches, frequent integration into main."
+    },
+    "test-project": {
+      "label": "Test Project",
+      "desc": "Practicing markup on a real design from start to finish."
+    },
+    "vars-selectors-functions": {
+      "label": "Variables, Selectors, Functions",
+      "desc": "CSS variables, selector specificity, calc/clamp functions."
+    },
+    "figma": {
+      "label": "Working with Designs and Designers / Figma Basics",
+      "desc": "Reading designs, working with design tokens and components."
+    },
+    "box-model": {
+      "label": "Box Model, Cascade, Specificity, Inheritance",
+      "desc": "CSS fundamentals: box-sizing, order of style application."
+    },
+    "tailwind": {
+      "label": "TailwindCSS",
+      "desc": "Utility-first CSS framework, config customization."
+    },
+    "flex-grid": {
+      "label": "Flex + Grid",
+      "desc": "Modern page layout, responsive grids."
+    },
+    "bem": {
+      "label": "BEM",
+      "desc": "Methodology for naming blocks, elements, and modifiers."
+    },
+    "sass": {
+      "label": "Sass",
+      "desc": "CSS preprocessor: mixins, nesting, variables, modules."
+    },
+    "fonts": {
+      "label": "Fonts",
+      "desc": "Connecting web fonts, font-display, load optimization."
+    },
+    "css-in-js": {
+      "label": "CSS-in-JS",
+      "desc": "Styling components via JS: styled-components and similar tools."
+    },
+    "css-modules": {
+      "label": "CSS Modules",
+      "desc": "Local class scoping, style isolation."
+    },
+    "email-markup": {
+      "label": "Email Markup",
+      "desc": "Table-based markup for email campaigns, react-mailer, cross-client compatibility."
+    },
+    "nativewind": {
+      "label": "NativeWind",
+      "desc": "Tailwind syntax for styling React Native components."
+    },
+    "npm": {
+      "label": "NPM",
+      "desc": "package.json/package-lock, dependencies vs devDependencies, npm scripts, npx, Node.js versions, differences from Yarn."
+    },
+    "npm-advanced": {
+      "label": "NPM: advanced",
+      "desc": "Semver, engines/os/arch constraints, registries and .npmrc, peer/optional/bundled dependencies, node_modules resolution, npm audit."
+    },
+    "devtools": {
+      "label": "Chrome DevTools",
+      "desc": "Network (throttling, curl, resource weight), Elements (styles, ARIA), Application (cookies/storage), Sources (breakpoints), Accessibility, FPS/Web Vitals."
+    },
+    "seo": {
+      "label": "SEO",
+      "desc": "Meta tags, semantics, indexing, basics of site promotion."
+    },
+    "ide": {
+      "label": "IDE",
+      "desc": "WebStorm and VS Code: setup, extensions, snippets, debugger, live templates, productivity shortcuts."
+    },
+    "markdown": {
+      "label": "Markdown",
+      "desc": "Documentation markup, README, formatting syntax."
+    },
+    "analytics": {
+      "label": "Analytics Services",
+      "desc": "Usage metrics, events, funnels, A/B tests."
+    },
+    "openapi": {
+      "label": "OpenAPI",
+      "desc": "Describing REST APIs, Swagger UI, generating clients and docs."
+    },
+    "linux": {
+      "label": "Linux",
+      "desc": "Command line, permissions, processes, basic administration."
+    },
+    "auth": {
+      "label": "Authorization and Authentication",
+      "desc": "Sessions, tokens, OAuth, access control."
+    },
+    "security": {
+      "label": "Security",
+      "desc": "XSS, CSRF, injections, basic web application defense practices."
+    },
+    "yaml": {
+      "label": "YAML",
+      "desc": "Syntax (blocks, lists, multiline strings, comments), data types, reuse and validation in YAML contracts."
+    },
+    "eslint-prettier": {
+      "label": "Eslint & Prettier",
+      "desc": "Linting and code formatting, a consistent code style across the team."
+    },
+    "socket-io": {
+      "label": "Socket.io",
+      "desc": "Two-way real-time communication over WebSocket."
+    },
+    "zod": {
+      "label": "Zod",
+      "desc": "Runtime schema validation, synced with TS types."
+    },
+    "postman": {
+      "label": "Postman",
+      "desc": "Manual and automated API request testing."
+    },
+    "storybook": {
+      "label": "Storybook",
+      "desc": "Isolated UI component development and documentation."
+    },
+    "tanstack": {
+      "label": "TanStack Query",
+      "desc": "Caching and syncing server state in React."
+    },
+    "ai-agents": {
+      "label": "AI Agents",
+      "desc": "Claude, Codex, Cursor, Qwen — agentic development with AI; spec-driven development for briefing an agent."
+    },
+    "storage": {
+      "label": "Local & Session Storage",
+      "desc": "Client-side data storage, differences in lifetime."
+    },
+    "iframe": {
+      "label": "IFrame",
+      "desc": "Embedding third-party pages, isolation and message passing."
+    },
+    "pwa": {
+      "label": "PWA",
+      "desc": "Service Worker, offline mode, manifest, installation on a device."
+    },
+    "web-vitals": {
+      "label": "Web Vitals",
+      "desc": "LCP, CLS, INP; measuring CLS, Field vs Origin Summary vs Lab data; Lighthouse, PageSpeed, WebPageTest, Perfume, Sentry Performance."
+    },
+    "svg": {
+      "label": "SVG",
+      "desc": "Vector graphics on the web, path animation and styling."
+    },
+    "docker": {
+      "label": "Docker",
+      "desc": "Containerizing development and deployment environments."
+    },
+    "browser-render": {
+      "label": "How the Browser Renders Pages",
+      "desc": "Critical rendering path: fetch → DOM/CSSOM → Render Tree → Layout → Paint → Composite; blocking resources, Reflow vs Repaint, layers and rasterization."
+    },
+    "rendering-strategies": {
+      "label": "Core Strategies",
+      "desc": "CSR, SSR, SSG, ISR — differences, pros and cons of each approach."
+    },
+    "code-splitting": {
+      "label": "Code-splitting & Tree-shaking",
+      "desc": "Dynamic imports, prefetch/preload, bundle analysis; conditions for tree-shakeable code, sideEffects in package.json, usedExports/providedExports."
+    },
+    "vite": {
+      "label": "Vite",
+      "desc": "Build tool and dev server: fast HMR, plugins, build configuration."
+    },
+    "i18n": {
+      "label": "i18n - Internationalization",
+      "desc": "App localization, language-based routing, formatting."
+    },
+    "next-framework": {
+      "label": "Next.js",
+      "desc": "App/Pages router, server components, file-based routing."
+    },
+    "bff": {
+      "label": "BFF & API Gateway pattern",
+      "desc": "Backend for Frontend, a single entry point for client APIs."
+    },
+    "oop": {
+      "label": "OOP",
+      "desc": "Encapsulation, inheritance, polymorphism, composition."
+    },
+    "mv-patterns": {
+      "label": "MV* Patterns",
+      "desc": "MVC/MVP/MVVM — separation of concerns in an application."
+    },
+    "principles": {
+      "label": "Key Software Engineering Principles",
+      "desc": "DRY, KISS, YAGNI and other fundamental engineering principles."
+    },
+    "solid": {
+      "label": "S.O.L.I.D.",
+      "desc": "Five principles of object-oriented design."
+    },
+    "atomic-design": {
+      "label": "Atomic Design",
+      "desc": "Atoms, molecules, organisms — a hierarchy of reusable components."
+    },
+    "docker-compose": {
+      "label": "docker-compose",
+      "desc": "Orchestrating multiple containers via a single YAML config."
+    }
+  }
+}
